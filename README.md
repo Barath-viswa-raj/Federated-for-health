@@ -18,15 +18,6 @@ While rich medical datasets are hosted in hospitals distributed across the world
 
 We provided a Jupyter Notebook for training on Google Colab. Please see the file `JNotebook_running_FSCDP_on_Colab.ipynb` in the `private_training` folder.
 
-## Live Demo:
-
-Please use this link to get an inference on a Diabetic Retinopathy medical image:
-
-https://imperial-diagnostics.herokuapp.com/
-
-(Note: implementing the pure private inference is still in progress...)
-
-## Citation
 If you find the provided code or the proposed algorithms useful, please cite this work as:
 ```bibtex
 @article{malekzadeh2021dopamine,
