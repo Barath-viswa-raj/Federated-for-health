@@ -1,6 +1,6 @@
-# Dopamine: Differentially Private Federated Learning on Medical Data
+Differentially Private Federated Learning on Medical Data
 
-- Please read the paper here: https://arxiv.org/abs/2101.11693 
+- Base paper here: https://arxiv.org/abs/2101.11693 
 
 
 ## Abstract 
@@ -9,25 +9,13 @@ While rich medical datasets are hosted in hospitals distributed across the world
 ## Folders:
  
 1. `report`: includes the final report. For `1.Design document showing the reasons for the choice of privacy-preserving technique and the network architectural components.`
-2. `private_training`: includes the source code and a JupyterNotebook tutorial for training the privacy-preserving model explained in the report. For `2.Source code for the implementation of the privacy-preserving design across various architectural components.`
-3. `private_inference`: includes the source code and demo for running inference on the privately trained model. For `3.Tested code and Test Report for all implementations- Implementations of Privacy-Preserving AI Technique, Trained Data Model, UI on smartphone.`
-4. `video_demo`: include some video demos showing how to run training and inference. For  `4. A Video of the demonstration of Proof-of-Concept.`
+2. `private_training`: includes the source code and a JupyterNotebook tutorial for training the privacy-preserving model explained in the report. For `
+3. 2.Source code for the implementation of the privacy-preserving design across various architectural components.`
+4. `private_inference`: includes the source code and demo for running inference on the privately trained model. For `3.Tested code and Test Report for all implementations- Implementations of Privacy-Preserving AI Technique, Trained Data Model.`
 
 
 ## Tutorial
 
 We provided a Jupyter Notebook for training on Google Colab. Please see the file `JNotebook_running_FSCDP_on_Colab.ipynb` in the `private_training` folder.
 
-If you find the provided code or the proposed algorithms useful, please cite this work as:
-```bibtex
-@article{malekzadeh2021dopamine,
-  title={Dopamine: Differentially Private Federated Learning on Medical Data},
-  author={Malekzadeh, Mohammad and Hasircioglu, Burak and  Mital, Nitish and  Katarya, Kunal and Ozfatura,  Mehmet Emre and Gündüz, Deniz}, 
-  journal= {The Second AAAI Workshop on Privacy-Preserving Artificial Intelligence (PPAI-21)},
-  year={2021},
-  url = {https://github.com/ipc-lab/private-ml-for-health}
-}
-```
 
-## Collaboration/Contribution
-We kindly welcome collaboration and/or contribution to this work. Please feel free to drop a line to us via email or by opening an issue.  
